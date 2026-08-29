@@ -143,11 +143,7 @@ h1{
     color: #5d7be7ed;
 }
 
-.card-tls h3 a{
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
+
 
 .card-tls:hover a{
     color: powderblue;
