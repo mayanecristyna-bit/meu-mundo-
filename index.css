@@ -141,9 +141,10 @@ h1{
 .card-tls h3 {
     margin-bottom: 15px;
     color: #5d7be7ed;
+    text-decoration: none;
 }
 
-.card-tls:hover a{
+.card-tls:hover h3{
     color: powderblue;
 }
 
