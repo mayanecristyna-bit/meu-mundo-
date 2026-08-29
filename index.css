@@ -1,0 +1,218 @@
+ /*Index*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body.index{
+    background-color: rgb(226,169,241);
+    display: block;
+    overflow: hidden;
+}
+
+header{
+    background-color: #5828b6 ;
+    padding: 0px 5px;
+    color: white;
+    font-family: 'open sans';
+    min-width: 250px;
+}
+
+.meumundo{
+    text-align: center;
+    background-color: white;
+    font-family: 'open sans';
+}
+
+.meumundo h2{
+    color: #361b6b;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slide img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container-index{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 100px 100px;
+    min-width: 250px;
+}
+
+.card{
+    background-color: #7b2c9b;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;    
+}
+
+.card a{
+    color: powderblue;
+    text-decoration: none;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #5828b6;
+    padding: 15px 30px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+
+             /*TEATROS & LIVROS*/
+
+
+
+body.tls{
+    background: linear-gradient(90deg, #004aad , #cb6ce6 );
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.container-tls{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px 0;
+}
+
+h1{
+    margin: 50px;
+    color: red;
+}
+
+ h2{
+    color: white;
+}
+
+#imagem{
+    height: 500px;
+    margin: 100px auto;
+    width: 400px;
+    display: block;
+}
+
+   /*TEATROS*/
+
+.card-tls{
+    background-color: black;
+    border-radius: 15px;
+    height: 550px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'open sans';
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card-tls img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-tls h3{
+    margin-bottom: 15px;
+    color: #5d7be7ed;
+}
+
+.card-tls a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.card-tls:hover h3{
+    color: powderblue;
+}
+
+
+
+
+
+   /*Página Next*/
+
+body.pagina1{
+    background: linear-gradient(90deg, #000 , #3533cd );
+    display: flex;
+}
+
+   /*Página Mail*/
+
+body.pagina2{
+    background: linear-gradient(90deg, #000 , #db9020);
+    display: flex;
+}
+
+   /*Página Hades*/
+
+body.pagina3{
+    background: linear-gradient(90deg, #000, #c02915  );
+    display: flex;
+}
+
+
+   /*Livros*/
+   
+   /*Página Sombra*/
+
+body.pagina4{
+    background: linear-gradient(90deg, #000, #1b263b  );
+    display: flex;
+}
+
+    /*Página Jogos*/
+
+body.pagina5{
+    background: linear-gradient(90deg, #000, #cc5500  );
+    display: flex;
+}
+
+   /*Página Evelyn*/
+
+body.pagina6{
+    background: linear-gradient(90deg, #000, #556b2f  );
+    display: flex;
+}
+
+
+@media screen and (max-width: 780px){
+    .container-index{
+        display: flex;
+    }
+
+    .slide1{
+        position: relative;
+    }
+
+    .container-tl{
+        display: block;
+    }
+}
