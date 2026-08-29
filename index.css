@@ -138,12 +138,12 @@ h1{
     margin-bottom: 15px;
 }
 
-.card-tls a{
+.card-tls h3 a{
     margin-bottom: 15px;
     color: #5d7be7ed;
 }
 
-.card-tls a{
+.card-tls h3 a{
     color: black;
     text-decoration: none;
     text-align: center;
