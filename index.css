@@ -195,7 +195,7 @@ body.pagina6{
 }
 
 body.tls2{
-    background:#f8f9fa;
+    background: linear-gradient(90deg, #000 , #db9020);
     display:flex;
     justify-content:center;
     align-items:center;
