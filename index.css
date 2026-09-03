@@ -100,8 +100,6 @@ body.tls{
     padding: 25px 0;
 }
 
-   /*TEATROS*/
-
 .card-tls{
     background-color: black;
     border-radius: 15px;
@@ -132,6 +130,7 @@ body.tls{
     color: powderblue;
 }
 
+   /*TEATROS*/
 
    /*Página Next*/
 
@@ -246,12 +245,18 @@ body.tls2{
     font-size:13px;
   }
 
-  .box1 .titulo{ background:#c8e6c9; }
-  .box2 .titulo{ background:#ffe0b2; }
-  .box3 .titulo{ background:#d1c4e9; } 
-  .box4 .titulo{ background:#fff59d; }
+  .box1 .titulo{ 
+     background:#c8e6c9; 
+  }
+  .box2 .titulo{ 
+   background:#ffe0b2;
+  }
+  .box3 .titulo{ 
+     background:#d1c4e9; } 
+  .box4 .titulo{ 
+     background:#fff59d;
+  }
 
-  /* Posições - só 4 */
   .box1{
      top:0; left:50%; transform:translateX(-50%); 
   }
