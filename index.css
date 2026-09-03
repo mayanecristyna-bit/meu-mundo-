@@ -281,36 +281,6 @@ body.tls2{
       top:50%; left:0; transform:translateY(-50%);
   }
 
-  .linha{
-    position:absolute;
-    background:black;
-    height:2px;
-    z-index:1;
-  }
-  .l1{ 
-     width:60px;
-     top:110px;
-     left:50%;
-     transform:translateX(-50%) rotate(90deg);
-     transform-origin:top;
-   }
-  .l2{
-     width:100px;
-     top:50%;
-     right:210px; 
-  }
-  .l3{ 
-     width:60px;
-     bottom:110px;
-     left:50%;
-     transform:translateX(-50%) rotate(90deg); 
-  }
-  .l4{ 
-      width:100px;
-      top:50%;
-      left:210px; 
-  }
-
 @media screen and (max-width: 780px){
     .container-index{
         display: flex;
