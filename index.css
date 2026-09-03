@@ -81,7 +81,7 @@ footer{
 }
 
 
-             /*TEATROS & LIVROS*/
+             /*TEATROS, LIVROS & SÉRIES*/
 
 
 
@@ -98,22 +98,6 @@ body.tls{
     justify-content: center;
     gap: 50px;
     padding: 25px 0;
-}
-
-h1{
-    margin: 50px;
-    color: red;
-}
-
- h2{
-    color: white;
-}
-
-#imagem{
-    height: 500px;
-    margin: 100px auto;
-    width: 400px;
-    display: block;
 }
 
    /*TEATROS*/
@@ -281,7 +265,7 @@ body.tls2{
       top:50%; left:0; transform:translateY(-50%);
   }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1920px){
     .container-index{
         display: flex;
     }
