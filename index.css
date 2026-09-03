@@ -209,7 +209,6 @@ body.tls2{
     height:600px;
   }
 
-  /* Centro */
   .centro{
     position:absolute;
     left:50%; top:50%;
@@ -243,7 +242,6 @@ body.tls2{
     z-index:-1;
   }
 
-  /* Caixinhas */
   .box{
     position:absolute;
     width:210px;
@@ -264,19 +262,25 @@ body.tls2{
     font-size:13px;
   }
 
-  /* Cores igual da imagem */
-  .box1 .titulo{ background:#c8e6c9; } /* verde */
-  .box2 .titulo{ background:#ffe0b2; } /* laranja */
-  .box3 .titulo{ background:#d1c4e9; } /* roxo */
-  .box4 .titulo{ background:#fff59d; } /* amarelo */
+  .box1 .titulo{ background:#c8e6c9; }
+  .box2 .titulo{ background:#ffe0b2; }
+  .box3 .titulo{ background:#d1c4e9; } 
+  .box4 .titulo{ background:#fff59d; }
 
   /* Posições - só 4 */
-  .box1{ top:0; left:50%; transform:translateX(-50%); }
-  .box2{ top:50%; right:0; transform:translateY(-50%); }
-  .box3{ bottom:0; left:50%; transform:translateX(-50%); }
-  .box4{ top:50%; left:0; transform:translateY(-50%); }
+  .box1{
+     top:0; left:50%; transform:translateX(-50%); 
+  }
+  .box2{ 
+     top:50%; right:0; transform:translateY(-50%);
+  }
+  .box3{ 
+      bottom:0; left:50%; transform:translateX(-50%); 
+  }
+  .box4{ 
+      top:50%; left:0; transform:translateY(-50%);
+  }
 
-  /* Linhas conectando */
   .linha{
     position:absolute;
     background:black;
