@@ -122,7 +122,7 @@ body.tls{
 
 .card-tls a{
     margin-bottom: 15px;
-    color: #5d7be7ed;
+    color: #5d7be7ed !Important;
     text-decoration: none !Important;
 }
 
