@@ -130,53 +130,6 @@ body.tls{
     color: powderblue;
 }
 
-   /*TEATROS*/
-
-   /*Página Next*/
-
-body.pagina1{
-    background: linear-gradient(90deg, #000 , #3533cd );
-    display: flex;
-}
-
-   /*Página Mail*/
-
-body.pagina2{
-    background: linear-gradient(90deg, #000 , #db9020);
-    display: flex;
-}
-
-   /*Página Hades*/
-
-body.pagina3{
-    background: linear-gradient(90deg, #000, #c02915  );
-    display: flex;
-}
-
-
-   /*Livros*/
-   
-   /*Página Sombra*/
-
-body.pagina4{
-    background: linear-gradient(90deg, #000, #1b263b  );
-    display: flex;
-}
-
-    /*Página Jogos*/
-
-body.pagina5{
-    background: linear-gradient(90deg, #000, #cc5500  );
-    display: flex;
-}
-
-   /*Página Evelyn*/
-
-body.pagina6{
-    background: linear-gradient(90deg, #000, #556b2f  );
-    display: flex;
-}
-
 body.tls2{
     background: linear-gradient(90deg, #000 , #ec78b7);
     display:flex;
