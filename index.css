@@ -120,13 +120,13 @@ body.tls{
     margin-bottom: 15px;
 }
 
-.card-tls h3{
+.card-tls a{
     margin-bottom: 15px;
     color: #5d7be7ed;
     text-decoration: none;
 }
 
-.card-tls:hover h3{
+.card-tls:hover a{
     color: powderblue;
 }
 
