@@ -127,7 +127,7 @@ body.tls{
 }
 
 .card-tls:hover a{
-    color: powderblue;
+    color: powderblue !Important;
 }
 
 body.tls2{
