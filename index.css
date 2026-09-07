@@ -29,51 +29,18 @@ header{
     color: #361b6b;
 }
 
-.banner-carrossel{
-  position: relative;
-  width: 100vw;
-  height: 55vh;
-  overflow: hidden;
-  margin: auto;
-  background: #222;
-}
-.slides{
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
-}
 .slide{
-  min-width: 100%;
-  height: 100%;
-}
-.slide img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-sizing: border-box; /* isso resolve sua borda */
-}
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
 
-/* Bolinhas igual da sua foto */
-.dots{
-  position: absolute;
-  bottom: 12px;
-  right: 15px;
-  display: flex;
-  gap: 8px;
-}
-.dot{
-  width: 12px;
-  height: 5px;
-  background: #fff;
-  opacity: 0.6;
-  cursor: pointer;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-.dot.active{
-  background: powderblue; /* vermelho igual do print */
-  width: 22px;
-  opacity: 1;
+.slide img{
+   margin: 0;
+   padding: 0;
+   width: 100%;
 }
 
 .container-index{
