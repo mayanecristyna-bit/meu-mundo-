@@ -68,9 +68,10 @@ header{
   opacity: 0.6;
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 50%;
 }
 .dot.active{
-  background: #ff0000; /* vermelho igual do print */
+  background: powderblue; /* vermelho igual do print */
   width: 22px;
   opacity: 1;
 }
