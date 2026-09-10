@@ -222,17 +222,3 @@ body.tls2{
   .box4{ 
       top:50%; left:0; transform:translateY(-50%);
   }
-
-@media screen and (max-width: 1920px){
-    .container-index{
-        display: flex;
-    }
-
-    .slide1{
-        position: relative;
-    }
-
-    .container-tl{
-        display: block;
-    }
-}
