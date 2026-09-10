@@ -4,7 +4,6 @@ const dotsContainer = document.querySelector('.dots');
 
 let index = 0;
 
-// cria as bolinhas
 slides.forEach((_, i) => {
   const dot = document.createElement('div');
   dot.classList.add('dot');
@@ -22,8 +21,7 @@ function goToSlide(i){
   dots[index].classList.add('active');
 }
 
-// autoplay igual Shopee
 setInterval(() => {
   index = (index + 1) % slides.length;
   goToSlide(index);
-}, 3000); // troca a cada 3 segundos
+}, 3000);
