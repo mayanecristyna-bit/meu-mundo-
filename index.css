@@ -88,7 +88,7 @@ button{
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding: 100px 100px;
+    padding: 50px 50px;
     min-width: 250px;
     flex-wrap: wrap;
 }
@@ -97,7 +97,7 @@ button{
     background-color: rgb(233, 213, 255);
     border-radius: 5px;
     padding: 15px;
-    width: 200px;
+    width: 100px;
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;   
