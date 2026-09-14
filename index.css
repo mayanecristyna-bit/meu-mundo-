@@ -87,7 +87,7 @@ button{
 .container-index{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     padding: 50px 50px;
     min-width: 250px;
     flex-wrap: wrap;
