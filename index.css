@@ -29,21 +29,60 @@ header{
     color: #361b6b;
 }
 
+.banner-carrossel{
+  position: relative;
+  width: 90vw;
+  height: 55vh;
+  overflow: hidden;
+  margin: auto;
+  background: #222;
+  border-radius: 15px;
+  box-shadow: 0 0 0 4px #222;
+  margin-top: 10px;
+}
+.slides{
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
 .slide{
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} 
-
+  min-width: 100%;
+  height: 100%;
+}
 .slide img{
-   margin: 0;
-   padding: 0;
-   width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
 }
 
+button{
+    color: #280955;
+    max-width: 50%;
+    z-index: 1px;
+}
 
+/* Bolinhas igual da sua foto */
+.dots{
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+}
+.dot{
+  width: 12px;
+  height: 5px;
+  background: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dot.active{
+  background: #ff0000; /* vermelho igual do print */
+  width: 22px;
+  opacity: 1;
+}
 
 .container-index{
     display: flex;
@@ -54,18 +93,20 @@ header{
 }
 
 .card{
-    background-color: #e9d5ff;
+    background-color: rgb(233, 213, 255);
     border-radius: 5px;
     padding: 15px;
     width: 200px;
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;   
-    border: #7c3aed;
+    border: 2px solid #7c3aed;
+
 }
 
 .card a{
-    color: #ddd6fe;
+    color: #280955;
+    text-decoration: none;
 }
 
 
