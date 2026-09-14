@@ -87,9 +87,10 @@ button{
 .container-index{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 25px;
     padding: 100px 100px;
     min-width: 250px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -273,8 +274,14 @@ body.tls2{
 @media screen and (max-width: 1920px){
     .container-index{
         display: flex;
+        gap: 20px;
+        padding: 30px 15px;
     }
 
+    .card{
+        width: 180px;
+    }
+ 
     .slide1{
         position: relative;
     }
