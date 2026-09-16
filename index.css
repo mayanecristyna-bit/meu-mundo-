@@ -36,7 +36,7 @@ header{
   margin: auto;
   background: #222;
   border-radius: 15px;
-  box-shadow: 0 0 0 4px #222;
+  box-shadow: 0 4px 8px #000;
   margin-top: 10px;
   overflow: hidden;
 }
@@ -91,6 +91,7 @@ button{
     padding: 50px 50px;
     min-width: 250px;
     flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .card{
