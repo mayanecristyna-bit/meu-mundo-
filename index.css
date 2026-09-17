@@ -101,7 +101,7 @@ button{
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;   
-    box-shadow: 0 4px 8px #4c1d95;
+    border: 0 4px 8px #4c1d95;
 }
 
 .card a{
