@@ -101,7 +101,7 @@ button{
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;   
-    border: 0 4px 8px groove rgba(0, 0, 0, 0.15);
+    border: 0 4px 8px groove #4c1d95;
 
 }
 
