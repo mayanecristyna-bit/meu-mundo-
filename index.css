@@ -102,9 +102,10 @@ button{
     font-family: 'Cinzel', serif;
     cursor: pointer;   
     border: 0 4px 8px #4c1d95;
+    transition: all 0.2s ease;
 }
 
-.card hover{
+.card:hover{
   transition: translate-y(-3px);
 }
 
