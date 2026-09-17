@@ -91,7 +91,6 @@ button{
     padding: 50px 50px;
     min-width: 250px;
     flex-wrap: wrap;
-    box-shadow: 0 4px 8px #4c1d95;
 }
 
 .card{
@@ -102,6 +101,7 @@ button{
     text-align: center;
     font-family: 'Cinzel', serif;
     cursor: pointer;   
+    box-shadow: 0 4px 8px #4c1d95;
 }
 
 .card a{
