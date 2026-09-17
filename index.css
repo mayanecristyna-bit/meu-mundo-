@@ -105,7 +105,7 @@ button{
 }
 
 .card hover{
-   translate-y: translate(-3);
+  transition: translate-y(-3px);
 }
 
 .card a{
