@@ -129,25 +129,40 @@ footer{
               /*3 cards*/
 
 body.tls{
-    background: linear-gradient(90deg, #004aad , #cb6ce6 );
+    background: #f9f6ff;
     padding: 0px;
     margin: 0px;
     display: block;
     overflow: hidden;
 }
 
+header.tls{
+    background-color: #4c1d95 ;
+    padding: 5px 5px;
+    color: white;
+    font-family: 'open sans';
+    min-width: 250px;
+}
+
+ header.tls h3{
+  font-size: 18px;
+  font-family: 'Cinzel', serif;
+}
+
 .container-tls{
+    background-color: #e9d5ff;
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 25px 0;
+    flex-wrap: wrap;
 }
 
 .card-tls{
-    background-color: black;
+    background-color: #dabdfa;
     border-radius: 15px;
     height: 550px;
-    width: 250px;
+    width: 220px;
     padding: 15px;
     text-align: center;
     font-family: 'open sans';
@@ -155,22 +170,25 @@ body.tls{
     align-items: center;
     justify-content: center;
     margin-top: 150px;
+    border: 2px solid #4c1d95;
+    transition: all 0.2s ease;
+}
+
+.card-tls:hover{
+  transform: translateY(-3px);
 }
 
 .card-tls img{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 15px;
+    display: block;
 }
 
 .card-tls a{
     margin-bottom: 15px;
     color: #3533cd !Important;
     text-decoration: none !Important;
-}
-
-.card-tls:hover a{
-    color: powderblue !Important;
 }
 
 
