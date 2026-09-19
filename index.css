@@ -6,7 +6,7 @@
 }
 
 body.index{
-    background-color: #f8f5ff;
+    background-color: #dfdce4;
     display: block;
     overflow: hidden;
 }
@@ -21,7 +21,7 @@ header{
 
 .meumundo{
     text-align: center;
-    background-color: white;
+    background-color: rgb(210, 210, 211);
     font-family: 'open sans';
 }
 
@@ -129,7 +129,7 @@ footer{
               /*3 cards*/
 
 body.tls{
-    background: #f9f6ff;
+    background: #dfdce4;
     padding: 0px;
     margin: 0px;
     display: block;
@@ -195,7 +195,7 @@ header.tls{
          /*Mapa Mental*/
 
 body.tls2{
-    background: linear-gradient(90deg, #000 , #ec78b7);
+    background: #dfdce4;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -203,6 +203,7 @@ body.tls2{
     margin:0;
     font-family:'Poppins', sans-serif;
   }
+
   .container-tls2{
     position:relative;
     width:750px;
@@ -211,10 +212,12 @@ body.tls2{
 
   .centro{
     position:absolute;
-    left:50%; top:50%;
+    left:50%;
+    top:50%;
     transform:translate(-50%,-50%);
-    width:180px; height:180px;
-    background:white;
+    width:180px;
+    height:180px;
+    background: #cecad6;
     border-radius:50%;
     border:18px solid transparent;
     background-clip: padding-box;
@@ -226,53 +229,59 @@ body.tls2{
     font-size:38px;
     line-height:0.9;
     z-index:2;
-    box-shadow: 0 0 0 4px white;
+    box-shadow: 1.5px 4px 8px #222;
   }
+
   .centro::before{
     content:'';
     position:absolute;
     inset:-18px;
     border-radius:50%;
     background: conic-gradient(
-     #5d7be7ed 0% 25%,
-      #db9020 25% 50%,
-      #b39ddb 50% 75%,
-      #c02915 75% 100%
+     #9871e0 0% 25%,
+      #b39ddb 25% 50%,
+      #9871e0 50% 75%,
+      #b39ddb 75% 100%
     );
     z-index:-1;
+    border: 1px solid black;
   }
 
   .box{
     position:absolute;
     width:210px;
-    background:white;
-    border:2px solid black;
-    box-shadow: 7px 7px 0px black;
+    background:#dabdfa;
+    border: 2px solid #4c1d95;
+    box-shadow: 1.5px 4px 8px #222;
+    border-radius: 15px;
   }
+
   .box .titulo{
     padding:6px 10px;
     font-weight:600;
-    font-size:14px;
-    border-bottom:2px solid black;
+    font-size:20px;
     text-align:center;
+    border-radius: 15px;
   }
+
   .box .conteudo{
     min-height:80px;
     padding:10px;
-    font-size:13px;
+    font-size:20px;
   }
 
+
   .box1 .titulo{ 
-     background: #b39ddb; 
+     background: #dabdfa; 
   }
   .box2 .titulo{ 
-   background: #cc5500;
+   background: #dabdfa;
   }
   .box3 .titulo{ 
-     background: #cb6ce6;
+     background: #dabdfa;
   } 
   .box4 .titulo{ 
-     background: #a8b628;
+     background: #dabdfa;
   }
 
   .box1{
