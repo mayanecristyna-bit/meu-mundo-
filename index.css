@@ -195,7 +195,7 @@ header.tls{
          /*Mapa Mental*/
 
 body.tls2{
-    background: #dfdce4;
+    background: rgb(180, 136, 223);
     display:flex;
     justify-content:center;
     align-items:center;
