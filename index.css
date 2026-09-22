@@ -159,7 +159,7 @@ header.tls{
 }
 
 .card-tls{
-    background-color: #dabdfa;
+    background-color: rgb(180, 136, 223);
     border-radius: 15px;
     height: 550px;
     width: 220px;
