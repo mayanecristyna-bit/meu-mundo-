@@ -6,7 +6,7 @@
 }
 
 body.index{
-    background-color: #dfdce4;
+    background-color: rgb(180, 136, 223);
     display: block;
     overflow: hidden;
 }
@@ -129,7 +129,7 @@ footer{
               /*3 cards*/
 
 body.tls{
-    background: #dfdce4;
+    background: rgb(180, 136, 223);
     padding: 0px;
     margin: 0px;
     display: block;
